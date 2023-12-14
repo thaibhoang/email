@@ -1,0 +1,51 @@
+textarea {
+    min-height: 400px;
+}
+
+.emailContainer {
+    flex:auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1rem;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+
+    padding: 1rem;
+    cursor: pointer;
+    background: linear-gradient(225deg, lightcoral, lightgoldenrodyellow);
+    align-items: center;
+}
+.whiteBackgound {
+    background-color: white;
+}
+
+.bigBox {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+
+}
+
+.bigBox button {
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    background: linear-gradient(125deg, #cce6ff, #3399ff);
+    align-items: center;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px black;
+}
+
+#email button{
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    background: linear-gradient(125deg, #cce6ff, #3399ff);
+    align-items: center;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px black;
+    margin: 0.5rem;
+}
